@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xd.sdklib"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:6:5-7:41
+8        android:minSdkVersion="11"
+8-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:6:5-7:41
+9        android:targetSdkVersion="21" />
+9-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:7:9-38
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:9:5-67
+11-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:9:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:10:5-79
+12-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:10:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:11:5-76
+13-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:11:22-73
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:12:5-81
+14-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:12:22-78
+15
+16    <application>
+16-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:14:5-88:19
+17        <activity
+17-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:15:9-18:77
+18            android:name="com.xd.sdklib.helper.XDStartView"
+18-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:16:13-60
+19            android:configChanges="orientation|keyboardHidden|screenSize"
+19-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:18:13-74
+20            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+20-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:17:13-83
+21        <activity
+21-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:19:9-22:77
+22            android:name="com.xd.sdklib.helper.XDViewActivity"
+22-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:20:13-63
+23            android:configChanges="orientation|keyboardHidden|screenSize"
+23-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:22:13-74
+24            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+24-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:21:13-83
+25        <activity
+25-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:23:9-26:77
+26            android:name="com.xd.sdklib.helper.XDPayActivity"
+26-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:24:13-62
+27            android:configChanges="orientation|keyboardHidden|screenSize"
+27-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:26:13-74
+28            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+28-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:25:13-83
+29        <activity
+29-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:27:9-29:86
+30            android:name="com.xd.sdklib.helper.XDWebView"
+30-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:28:13-58
+31            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+31-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:29:13-83
+32        <activity
+32-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:30:9-32:86
+33            android:name="com.xd.sdklib.helper.WXEntryActivity"
+33-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:31:13-64
+34            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" /> <!-- 微信登录 -->
+34-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:32:13-83
+35        <activity-alias
+35-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:35:9-38:76
+36            android:name="com.xd.sdklib.wxapi.WXEntryActivity"
+36-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:36:13-50
+37            android:exported="true"
+37-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:37:13-36
+38            android:targetActivity="com.xd.sdklib.helper.WXEntryActivity" />
+38-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:38:13-74
+39
+40        <!-- QQ登录 -->
+41        <activity
+41-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:41:9-45:20
+42            android:name="com.tencent.tauth.AuthActivity"
+42-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:42:13-58
+43            android:launchMode="singleTask"
+43-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:44:13-44
+44            android:noHistory="true" >
+44-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:43:13-37
+45        </activity>
+46        <activity
+46-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:47:9-50:77
+47            android:name="com.tencent.connect.common.AssistActivity"
+47-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:48:13-69
+48            android:configChanges="orientation|keyboardHidden|screenSize"
+48-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:50:13-74
+49            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+49-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:49:13-72
+50        <!-- Ping++ SDK -->
+51        <activity
+51-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:52:9-56:75
+52            android:name="com.pingplusplus.android.PaymentActivity"
+52-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:53:13-68
+53            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+53-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:54:13-85
+54            android:launchMode="singleTop"
+54-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:55:13-43
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- 微信支付 -->
+55-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:56:13-72
+56        <activity-alias
+56-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:71:9-74:81
+57            android:name="com.xd.sdklib.wxapi.WXPayEntryActivity"
+57-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:72:13-53
+58            android:exported="true"
+58-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:73:13-36
+59            android:targetActivity="com.pingplusplus.android.PaymentActivity" />
+59-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:74:13-78
+60
+61        <!-- 支付宝 -->
+62        <activity
+62-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:59:9-63:52
+63            android:name="com.alipay.sdk.app.H5PayActivity"
+63-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:60:13-60
+64            android:configChanges="orientation|keyboardHidden|navigation"
+64-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:61:13-74
+65            android:exported="false"
+65-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:62:13-37
+66            android:screenOrientation="portrait" />
+66-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:63:13-49
+67        <activity
+67-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:64:9-68:52
+68            android:name="com.alipay.sdk.auth.AuthActivity"
+68-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:65:13-60
+69            android:configChanges="orientation|keyboardHidden|navigation"
+69-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:66:13-74
+70            android:exported="false"
+70-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:67:13-37
+71            android:screenOrientation="portrait" />
+71-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:68:13-49
+72        <activity
+72-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:77:9-82:75
+73            android:name="com.taptap.sdk.TapTapActivity"
+73-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:78:13-57
+74            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+74-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:81:13-96
+75            android:exported="false"
+75-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:79:13-37
+76            android:screenOrientation="portrait"
+76-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:80:13-49
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:82:13-72
+78        <activity
+78-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:47:9-50:77
+79            android:name="com.tencent.connect.common.AssistActivity"
+79-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:48:13-69
+80            android:configChanges="orientation|keyboardHidden|screenSize"
+80-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:50:13-74
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:49:13-72
+82    </application>
+83
+84</manifest>

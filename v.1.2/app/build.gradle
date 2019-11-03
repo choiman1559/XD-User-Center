@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        minSdkVersion 11
+        targetSdkVersion 19
+        applicationId 'com.xd.sdkdemo'
+    }
+    signingConfigs {
+        config {
+            keyAlias 'wxlogin'
+            keyPassword '111111'
+            storeFile file('keystore/sign_password_111111.keystore')
+            storePassword '111111'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':xDSDKAndroid')
+}

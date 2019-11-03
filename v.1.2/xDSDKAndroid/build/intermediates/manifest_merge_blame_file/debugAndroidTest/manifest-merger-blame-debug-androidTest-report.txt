@@ -1,0 +1,166 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xd.sdklib.test" >
+4
+5    <uses-sdk
+5-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6624654170106130772.xml:5:5-74
+6        android:minSdkVersion="11"
+6-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6624654170106130772.xml:5:15-41
+7        android:targetSdkVersion="21" />
+7-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6624654170106130772.xml:5:42-71
+8
+9    <instrumentation
+9-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6624654170106130772.xml:11:5-15:68
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6624654170106130772.xml:11:22-75
+11        android:functionalTest="false"
+11-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6624654170106130772.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6624654170106130772.xml:13:22-53
+13        android:label="Tests for com.xd.sdklib.test"
+13-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6624654170106130772.xml:15:22-66
+14        android:targetPackage="com.xd.sdklib.test" />
+14-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6624654170106130772.xml:12:22-64
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+16-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+17-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-76
+18-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-73
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-81
+19-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-78
+20
+21    <application android:debuggable="true" >
+21-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6624654170106130772.xml:7:5-9:19
+21-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6624654170106130772.xml:7:18-43
+22        <uses-library android:name="android.test.runner" />
+22-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6624654170106130772.xml:8:9-60
+22-->/home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6624654170106130772.xml:8:23-57
+23
+24        <activity
+24-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-20:86
+25            android:name="com.xd.sdklib.helper.XDStartView"
+25-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-60
+26            android:configChanges="orientation|keyboardHidden|screenSize"
+26-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+27            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+27-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-83
+28        <activity
+28-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-24:86
+29            android:name="com.xd.sdklib.helper.XDViewActivity"
+29-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-63
+30            android:configChanges="orientation|keyboardHidden|screenSize"
+30-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-74
+31            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+31-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-83
+32        <activity
+32-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-28:86
+33            android:name="com.xd.sdklib.helper.XDPayActivity"
+33-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-62
+34            android:configChanges="orientation|keyboardHidden|screenSize"
+34-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-74
+35            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+35-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-83
+36        <activity
+36-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-31:86
+37            android:name="com.xd.sdklib.helper.XDWebView"
+37-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-58
+38            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+38-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-83
+39        <activity
+39-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:9-34:86
+40            android:name="com.xd.sdklib.helper.WXEntryActivity"
+40-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-64
+41            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" /> <!-- 微信登录 -->
+41-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-83
+42        <activity-alias
+42-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:9-38:77
+43            android:name="com.xd.sdklib.wxapi.WXEntryActivity"
+43-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-63
+44            android:exported="true"
+44-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-36
+45            android:targetActivity="com.xd.sdklib.helper.WXEntryActivity" /> <!-- QQ登录 -->
+45-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-74
+46        <activity
+46-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:9-45:20
+47            android:name="com.tencent.tauth.AuthActivity"
+47-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-58
+48            android:launchMode="singleTask"
+48-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-44
+49            android:noHistory="true" >
+49-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:13-37
+50        </activity>
+51        <activity
+51-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:9-49:75
+52            android:name="com.tencent.connect.common.AssistActivity"
+52-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:13-69
+53            android:configChanges="orientation|keyboardHidden|screenSize"
+53-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:13-74
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Ping++ SDK -->
+54-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:13-72
+55        <activity
+55-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:9-55:75
+56            android:name="com.pingplusplus.android.PaymentActivity"
+56-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:13-68
+57            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+57-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:13-85
+58            android:launchMode="singleTop"
+58-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:13-43
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- 微信支付 -->
+59-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:13-72
+60        <activity-alias
+60-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:9-59:81
+61            android:name="com.xd.sdklib.wxapi.WXPayEntryActivity"
+61-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:13-66
+62            android:exported="true"
+62-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-36
+63            android:targetActivity="com.pingplusplus.android.PaymentActivity" /> <!-- 支付宝 -->
+63-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:59:13-78
+64        <activity
+64-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:9-66:52
+65            android:name="com.alipay.sdk.app.H5PayActivity"
+65-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:13-60
+66            android:configChanges="orientation|keyboardHidden|navigation"
+66-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:64:13-74
+67            android:exported="false"
+67-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:65:13-37
+68            android:screenOrientation="portrait" />
+68-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:66:13-49
+69        <activity
+69-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:67:9-71:52
+70            android:name="com.alipay.sdk.auth.AuthActivity"
+70-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:68:13-60
+71            android:configChanges="orientation|keyboardHidden|navigation"
+71-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:69:13-74
+72            android:exported="false"
+72-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:70:13-37
+73            android:screenOrientation="portrait" />
+73-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:71:13-49
+74        <activity
+74-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:72:9-77:75
+75            android:name="com.taptap.sdk.TapTapActivity"
+75-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:73:13-57
+76            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+76-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:74:13-96
+77            android:exported="false"
+77-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:75:13-37
+78            android:screenOrientation="portrait"
+78-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:76:13-49
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:77:13-72
+80        <activity
+80-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:9-49:75
+81            android:name="com.tencent.connect.common.AssistActivity"
+81-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:13-69
+82            android:configChanges="orientation|keyboardHidden|screenSize"
+82-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:13-74
+83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+83-->[__tested_artifact__::xDSDKAndroid] /home/cuj1559/바탕화면/Demo/xDSDKAndroid/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:13-72
+84    </application>
+85
+86</manifest>

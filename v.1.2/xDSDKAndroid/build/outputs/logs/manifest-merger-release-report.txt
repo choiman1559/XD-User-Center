@@ -1,0 +1,165 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:1:1-91:12
+INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:1:1-91:12
+INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:1:1-91:12
+INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:1:1-91:12
+INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:1:1-91:12
+INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:1:1-91:12
+INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:1:1-91:12
+	package
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:2:5-28
+		INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml
+		INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml
+		INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml
+		INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:6:5-7:41
+INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:6:5-7:41
+INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:6:5-7:41
+INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:6:5-7:41
+INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:6:5-7:41
+	android:targetSdkVersion
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:7:9-38
+		INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml
+		INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:6:5-7:41
+		INJECTED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:11:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:12:22-78
+application
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:14:5-88:19
+activity#com.xd.sdklib.helper.XDStartView
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:15:9-18:77
+	android:configChanges
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:18:13-74
+	android:theme
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:17:13-83
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:16:13-60
+activity#com.xd.sdklib.helper.XDViewActivity
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:19:9-22:77
+	android:configChanges
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:22:13-74
+	android:theme
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:21:13-83
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:20:13-63
+activity#com.xd.sdklib.helper.XDPayActivity
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:23:9-26:77
+	android:configChanges
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:26:13-74
+	android:theme
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:25:13-83
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:24:13-62
+activity#com.xd.sdklib.helper.XDWebView
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:27:9-29:86
+	android:theme
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:29:13-83
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:28:13-58
+activity#com.xd.sdklib.helper.WXEntryActivity
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:30:9-32:86
+	android:theme
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:32:13-83
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:31:13-64
+activity-alias#com.xd.sdklib.wxapi.WXEntryActivity
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:35:9-38:76
+	android:exported
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:37:13-36
+	android:targetActivity
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:38:13-74
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:36:13-50
+activity#com.tencent.tauth.AuthActivity
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:41:9-45:20
+	android:launchMode
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:44:13-44
+	android:noHistory
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:42:13-58
+activity#com.tencent.connect.common.AssistActivity
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:47:9-50:77
+	android:configChanges
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:50:13-74
+	android:theme
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:49:13-72
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:48:13-69
+activity#com.pingplusplus.android.PaymentActivity
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:52:9-56:75
+	android:launchMode
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:55:13-43
+	android:configChanges
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:54:13-85
+	android:theme
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:56:13-72
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:53:13-68
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:59:9-63:52
+	android:screenOrientation
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:63:13-49
+	android:exported
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:62:13-37
+	android:configChanges
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:61:13-74
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:60:13-60
+activity#com.alipay.sdk.auth.AuthActivity
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:64:9-68:52
+	android:screenOrientation
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:68:13-49
+	android:exported
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:67:13-37
+	android:configChanges
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:66:13-74
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:65:13-60
+activity-alias#com.xd.sdklib.wxapi.WXPayEntryActivity
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:71:9-74:81
+	android:exported
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:73:13-36
+	android:targetActivity
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:74:13-78
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:72:13-53
+activity#com.taptap.sdk.TapTapActivity
+ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:77:9-82:75
+	android:screenOrientation
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:80:13-49
+	android:exported
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:79:13-37
+	android:configChanges
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:81:13-96
+	android:theme
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:82:13-72
+	android:name
+		ADDED from /home/cuj1559/바탕화면/Demo/xDSDKAndroid/src/main/AndroidManifest.xml:78:13-57
